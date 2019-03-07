@@ -80,6 +80,19 @@ preds=model.predict_proba(x_test)
 
 
 ```
+Or in Google Colab: 
+```python
+from pystacknet.pystacknet.pystacknet import StackNetClassifier
+
+model=StackNetClassifier(models, metric="auc", folds=4,
+	restacking=False,use_retraining=True, use_proba=True, 
+	random_state=12345,n_jobs=1, verbose=1)
+
+model.fit(x,y)
+preds=model.predict_proba(x_test)
+
+
+```
 Where :
 
 
