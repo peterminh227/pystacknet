@@ -5,7 +5,7 @@
 It supports many of the original features, with some new elements. 
 
 
-## Installation - UBUNTU
+## Installation - General
 
 ```
 git clone https://github.com/h2oai/pystacknet
