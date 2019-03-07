@@ -15,7 +15,7 @@ import pandas as pd
 from scipy.sparse import csr_matrix,hstack,vstack ,csc_matrix
 from sklearn.base import BaseEstimator, ClassifierMixin, RegressorMixin
 from sklearn.base import clone
-from pystacknet.metrics import check_regression_metric, check_classification_metric
+from pystacknet.pystacknet.metrics import check_regression_metric, check_classification_metric
 from sklearn.model_selection import KFold
 from sklearn.utils import check_X_y,check_array,check_consistent_length, column_or_1d
 import inspect
