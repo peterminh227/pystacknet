@@ -5,14 +5,21 @@
 It supports many of the original features, with some new elements. 
 
 
-## Installation
+## Installation - UBUNTU
 
 ```
 git clone https://github.com/h2oai/pystacknet
 cd pystacknet
 python setup.py install
 ```
-
+## Installation - Google Colab
+I changed the path so it can work with Google Colab
+```
+!git clone https://github.com/peterminh227/pystacknet.git
+%cd pystacknet
+!python setup.py install
+%cd ../
+```
 ## New features
 
 `pystacknet`'s main object is a 2-dimensional list of sklearn type of models. This list defines the StackNet structure. This is the equivalent of [parameters](https://github.com/kaz-Anova/StackNet#parameters-file) in the Java version. A representative example could be:
